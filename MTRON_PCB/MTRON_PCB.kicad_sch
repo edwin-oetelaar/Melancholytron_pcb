@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250318)
+	(version 20250425)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "1353bd87-f538-4564-a0bd-e5abb932fce9")
@@ -3033,6 +3033,16 @@
 		)
 		(uuid "37a33601-05db-440c-a0aa-620e1a69eac3")
 	)
+	(text "POWER INPUT 5V"
+		(exclude_from_sim no)
+		(at 176.784 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "901679d6-385a-4b32-85e0-ca639f0c0da3")
+	)
 	(text "analog in"
 		(exclude_from_sim no)
 		(at 43.18 127 0)
@@ -3051,10 +3061,10 @@
 		(uuid "14cd3e3b-553a-41a7-8b37-f29ff8db6df9")
 	)
 	(junction
-		(at 156.21 129.54)
+		(at 152.4 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d8484ae-5c36-485f-958f-ed7bb903a98a")
+		(uuid "2aab4968-5c2e-43dc-bdbe-0c60ab37f069")
 	)
 	(junction
 		(at 67.31 106.68)
@@ -3073,6 +3083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69e261f0-cf81-4cd0-b911-b81ac77942fb")
+	)
+	(junction
+		(at 162.56 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7901d5e6-e8bc-4818-8101-bacea374c06f")
 	)
 	(junction
 		(at 58.42 80.645)
@@ -3234,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 124.46) (xy 149.86 124.46)
+			(xy 135.89 124.46) (xy 147.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 118.11) (xy 149.86 124.46)
+			(xy 147.32 118.11) (xy 147.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3374,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 118.11) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d6ac29-abf1-4d63-8a13-2188b787a65e")
+	)
+	(wire
+		(pts
 			(xy 260.35 85.09) (xy 259.08 85.09)
 		)
 		(stroke
@@ -3454,6 +3480,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 128.27) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f79d27-514c-44a3-81e5-107da68a9a31")
+	)
+	(wire
+		(pts
 			(xy 55.88 33.02) (xy 55.88 34.29)
 		)
 		(stroke
@@ -3471,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "4323aa7c-cbb4-4c15-af3b-4aa25a655328")
+	)
+	(wire
+		(pts
+			(xy 152.4 146.05) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c7f677-3d92-42ee-b8b4-6212e0935428")
 	)
 	(wire
 		(pts
@@ -3554,6 +3600,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 129.54) (xy 138.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dab1adb-1199-4570-9acd-f5b99dc4bae2")
+	)
+	(wire
+		(pts
 			(xy 201.93 102.87) (xy 203.2 102.87)
 		)
 		(stroke
@@ -3581,16 +3637,6 @@
 			(type default)
 		)
 		(uuid "53c6b02b-6763-4231-9be5-e561842c0580")
-	)
-	(wire
-		(pts
-			(xy 156.21 129.54) (xy 156.21 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d104a0-a220-4b9f-bc92-f13dc2316c92")
 	)
 	(wire
 		(pts
@@ -3681,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "5f2761d7-e4ee-46fb-9ec9-9a55cd897182")
+	)
+	(wire
+		(pts
+			(xy 162.56 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f40d330-fa6e-4ea7-8ef5-5ca7ac2738b0")
 	)
 	(wire
 		(pts
@@ -3784,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 118.11) (xy 153.67 118.11)
+			(xy 147.32 118.11) (xy 153.67 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3934,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 156.21 134.62)
+			(xy 135.89 134.62) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3964,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 152.4 127)
+			(xy 149.86 124.46) (xy 149.86 127)
 		)
 		(stroke
 			(width 0)
@@ -4014,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 127) (xy 152.4 127)
+			(xy 135.89 127) (xy 149.86 127)
 		)
 		(stroke
 			(width 0)
@@ -4034,16 +4090,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 129.54) (xy 156.21 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5f61e6-7634-41da-bf50-b20989c4bc97")
-	)
-	(wire
-		(pts
 			(xy 201.93 85.09) (xy 203.2 85.09)
 		)
 		(stroke
@@ -4051,6 +4097,16 @@
 			(type default)
 		)
 		(uuid "909e4b54-d477-4bdb-87cd-48e00fbbaef9")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a520783-aec5-451e-9e0c-4dcb9edcf244")
 	)
 	(wire
 		(pts
@@ -4134,6 +4190,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4901584-d1a1-41c5-b8aa-121fdef8ac67")
+	)
+	(wire
+		(pts
 			(xy 201.93 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -4161,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "a8bfb2b9-a36d-45ba-b6f2-2747cd7fd71e")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfb0213-5684-4978-8ce3-ace818cffa3f")
 	)
 	(wire
 		(pts
@@ -4254,6 +4330,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 132.08) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb19f90a-9154-4400-a68b-32cd1fe30611")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.975) (xy 53.34 66.675)
 		)
 		(stroke
@@ -4271,6 +4357,16 @@
 			(type default)
 		)
 		(uuid "beef12ae-b954-4997-8a99-def7ba43a208")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf776aef-a6c7-4969-a509-5f8b73caebc7")
 	)
 	(wire
 		(pts
@@ -4334,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 153.67 124.46)
+			(xy 149.86 124.46) (xy 153.67 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4371,16 +4467,6 @@
 			(type default)
 		)
 		(uuid "d2778f5e-36f1-4c81-bb51-aff67dc700ec")
-	)
-	(wire
-		(pts
-			(xy 156.21 129.54) (xy 163.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2cf58a9-d8e4-40d8-8030-4f16a8a29a3f")
 	)
 	(wire
 		(pts
@@ -4451,6 +4537,16 @@
 			(type default)
 		)
 		(uuid "de3d539c-74ee-4ca4-aab8-8638554564bd")
+	)
+	(wire
+		(pts
+			(xy 148.59 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd24e0c-ada2-42e8-91d8-45fa2c3e177f")
 	)
 	(wire
 		(pts
@@ -5582,6 +5678,28 @@
 			)
 		)
 	)
+	(global_label "GROUND"
+		(shape input)
+		(at 165.1 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b789d3-3f1a-4b00-ab87-c4ba3ba61162")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8867 124.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "P7"
 		(shape input)
 		(at 201.93 80.01 180)
@@ -6239,6 +6357,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "PLUS5"
+		(shape input)
+		(at 153.67 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6a48d5c-80a7-4dd2-a3cc-d1dbf8906e65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7028 115.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7083,7 +7223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 63.5 78.105 0)
 			(hide yes)
 			(effects
@@ -7413,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 67.31 104.14 0)
 			(hide yes)
 			(effects
@@ -7449,6 +7589,75 @@
 			(project ""
 				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 170.18 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191951ce-bbf6-4968-b4b9-06ef19a19008")
+		(property "Reference" "J101"
+			(at 172.72 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 172.72 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 170.18 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c38fe51-63f4-4875-a7d0-1d0d3cfbbc47")
+		)
+		(pin "2"
+			(uuid "64031c7e-c586-4d36-8079-b9fd9f4a79de")
+		)
+		(instances
+			(project "MTRON_PCB"
+				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -7678,7 +7887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 153.67 120.65 0)
 			(hide yes)
 			(effects
@@ -7877,7 +8086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 149.225 81.28 0)
 			(hide yes)
 			(effects
@@ -7946,7 +8155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 69.85 37.465 0)
 			(hide yes)
 			(effects
@@ -8015,7 +8224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 58.42 69.215 0)
 			(hide yes)
 			(effects
@@ -8213,7 +8422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 29.845 73.025 0)
 			(hide yes)
 			(effects
@@ -8280,7 +8489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 29.845 69.215 0)
 			(hide yes)
 			(effects
@@ -8316,71 +8525,6 @@
 			(project ""
 				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 163.83 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "599d2f3b-1d78-4e2a-85ba-0ed411d0c383")
-		(property "Reference" "#PWR07"
-			(at 163.83 133.35 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 163.83 126.0571 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 129.54 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 129.54 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a762399c-b4a3-4f33-9066-57e0eb2151bb")
-		)
-		(instances
-			(project ""
-				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 55.88 38.1 0)
 			(hide yes)
 			(effects
@@ -8613,7 +8757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 45.72 38.735 0)
 			(hide yes)
 			(effects
@@ -8871,6 +9015,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 152.4 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3b31e9-b19a-4d34-83a6-8466165116be")
+		(property "Reference" "R101"
+			(at 153.8986 136.5655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 153.8986 138.3277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1707463-4165-42dd-b6a6-eb307b0eb4d9")
+		)
+		(pin "2"
+			(uuid "c57dc5eb-5f91-490e-97df-85d373f50898")
+		)
+		(instances
+			(project "MTRON_PCB"
+				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 55.88 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8897,7 +9110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 55.88 30.48 0)
 			(hide yes)
 			(effects
@@ -9309,7 +9522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 45.72 31.115 0)
 			(hide yes)
 			(effects
@@ -9484,6 +9697,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 148.59 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44f045e-d985-455a-9493-80d5ac1642d6")
+		(property "Reference" "#PWR0101"
+			(at 148.59 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 142.5671 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 146.05 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 146.05 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c97bad-e328-4e42-af1e-9f20186fc991")
+		)
+		(instances
+			(project "MTRON_PCB"
+				(path "/1353bd87-f538-4564-a0bd-e5abb932fce9"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 69.85 29.845 0)
 		(unit 1)
@@ -9511,7 +9789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 69.85 29.845 0)
 			(hide yes)
 			(effects

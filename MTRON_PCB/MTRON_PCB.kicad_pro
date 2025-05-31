@@ -504,6 +504,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -522,13 +523,14 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.34,
+        "tuning_profile": "",
         "via_diameter": 0.9,
         "via_drill": 0.4,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -560,7 +562,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab2",
+      "plot": "fab3",
       "pos_files": "",
       "specctra_dsn": "MTRON_PCB.dsn",
       "step": "",
@@ -633,12 +635,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -698,5 +712,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "time_domain_parameters": {
+    "delay_profiles_user_defined": [],
+    "meta": {
+      "version": 0
+    }
+  }
 }

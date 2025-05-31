@@ -11,25 +11,24 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2338)
+    (start_pass_no 21)
     (layer_rule F.Cu
-      (active on)
-      (preferred_direction vertical)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
-    )
-    (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
     )
   )
   (rule
     (width 300.0)
-    (clear 150.2)
+    (clear 150.0)
     (clear 150.0 (type smd_to_turn_gap))
-    (clear 37.6 (type smd_smd))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -77,14 +76,6 @@
     PWR "Via[0-1]_900:400_um-PWR"
   )
   (class default
-    "Net-(D1-K)" "unconnected-(U1-6_OUT1D)" "unconnected-(U1-7_RX2_OUT1A)" "unconnected-(U1-8_TX2_IN1)" "unconnected-(U1-9_OUT1C)" "unconnected-(U1-10_CS_MQSR)" "unconnected-(U1-11_MOSI_CTX1)" "unconnected-(U1-12_MISO_MQSL)"
-    "unconnected-(U1-VBAT)" "unconnected-(U1-PROGRAM)" "unconnected-(U1-ON_OFF)" "unconnected-(U1-13_SCK_CRX1_LED)" "unconnected-(U1-18_A4_SDA0)" "unconnected-(U1-19_A5_SCL0)" "unconnected-(U1-20_A6_TX5_LRCLK1)" "unconnected-(U1-21_A7_RX5_BCLK1)"
-    "unconnected-(U1-23_A9_CRX1_MCLK1)" "unconnected-(U1-VUSB)" "unconnected-(U1-29_TX7)" "unconnected-(U1-30_CRX3)" "unconnected-(U1-31_CTX3)" "unconnected-(U1-32_OUT1B)" "unconnected-(U1-33_MCLK2)" "Net-(J1-Pin_2)"
-    "Net-(U1-0_RX1_CRX2_CS1)" "unconnected-(U2-NC)_1" "Net-(D1-A)" "unconnected-(U2-NC)" "unconnected-(U2-VO1)" "unconnected-(U1-28_RX7)" "Net-(J2-Pin_2)" "unconnected-(H1-Pad1)"
-    "unconnected-(H2-Pad1)" "unconnected-(H3-Pad1)" "unconnected-(H4-Pad1)" "Net-(J4-Pin_2)" "Net-(J5-Pin_2)" "Net-(J5-Pin_3)" "Net-(J5-Pin_4)" "Net-(J5-Pin_5)"
-    "unconnected-(U1-24_A10_TX6_SCL2)" "unconnected-(U1-25_A11_RX6_SDA2)" "unconnected-(U1-26_A12_MOSI1)" "unconnected-(U1-27_A13_SCK1)" "Net-(J6-Pin_1)" "Net-(U1-1_TX1_CTX2_MISO1)" "Net-(U5A--)_1" "Net-(J7-Pin_3)"
-    "Net-(U5A--)" "Net-(J7-Pin_1)" "Net-(D2-A)" "Net-(D3-A)" "Net-(J8-Pin_1)" "Net-(J8-Pin_2)" "Net-(J9-Pin_2)" "Net-(J3-Pin_1)"
-    "Net-(J3-Pin_2)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -95,8 +86,19 @@
     )
   )
   (class "kicad_default"
+    GROUND P33 "Net-(D1-K)" P16 "unconnected-(H1-Pad1)_1" "unconnected-(H1-Pad1)_2" "unconnected-(H1-Pad1)_3" "unconnected-(H1-Pad1)_4"
+    "unconnected-(H1-Pad1)_5" "unconnected-(H1-Pad1)_6" "unconnected-(H1-Pad1)_7" "unconnected-(H1-Pad1)_8" "unconnected-(H2-Pad1)_1" "unconnected-(H2-Pad1)_2" "unconnected-(H2-Pad1)_3" "unconnected-(H2-Pad1)_4"
+    "unconnected-(H2-Pad1)_5" "unconnected-(H2-Pad1)_6" "unconnected-(H2-Pad1)_7" "unconnected-(H2-Pad1)_8" "unconnected-(H3-Pad1)_1" "unconnected-(H3-Pad1)_2" "unconnected-(H3-Pad1)_3" "unconnected-(H3-Pad1)_4"
+    "Net-(J1-Pin_2)" "unconnected-(H3-Pad1)_5" "unconnected-(H3-Pad1)_6" "Net-(D1-A)" "unconnected-(H3-Pad1)_7" "unconnected-(H3-Pad1)_8" "unconnected-(H4-Pad1)_1" "unconnected-(H4-Pad1)_2"
+    "unconnected-(H4-Pad1)_3" "unconnected-(H4-Pad1)_4" "unconnected-(H1-Pad1)" "unconnected-(H2-Pad1)" "unconnected-(H3-Pad1)" "unconnected-(H4-Pad1)" "unconnected-(H4-Pad1)_5" "unconnected-(H4-Pad1)_6"
+    "unconnected-(H4-Pad1)_7" "unconnected-(H4-Pad1)_8" P7 P6 P29 P22 P24 P23
+    P21 P2 P25 P40 P15 "Net-(D2-A)" "Net-(D3-A)" P14
+    P9 P28 P8 P26 P35 P41 P36 P39
+    P34 P12 P43 P30 P37 P13 P3 P42
+    P20 P11 P38 P10 P18 P27 P44 P19
+    "unconnected-(U2-NC-Pad1)" "unconnected-(U2-VO1-Pad7)" "unconnected-(U2-NC-Pad4)" "Net-(D4-A)"
     (clearance_class "kicad_default")
-    (via_rule kicad_default)
+    (via_rule "kicad_default")
     (rule
       (width 300.0)
     )
@@ -105,7 +107,7 @@
     )
   )
   (class PWR
-    GND +3V3 +5V LD1 LD2
+    LD1 LD2
     (clearance_class PWR)
     (via_rule PWR)
     (rule
