@@ -1,0 +1,201 @@
+(footprint "Transformer_EL-11-tinytronics"
+	(version 20250513)
+	(generator "pcbnew")
+	(generator_version "9.99")
+	(layer "F.Cu")
+	(descr "Qingxian Zeming Langxi Electronic ZMPT101K voltage transformer 1000:1000 2mA:2mA, https://5krorwxhmqqirik.leadongcdn.com/ZMPT101K+specification-aidikBqoKomRilSkopqmikp.pdf")
+	(tags "voltage transformer ZMPT")
+	(property "Reference" "REF**"
+		(at 14.4 2.7 0)
+		(layer "F.SilkS")
+		(uuid "ab4ff11b-e9bc-4338-89d3-5cb4fb17625e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_EL-11-tinytronics"
+		(at 4.9 18.4 0)
+		(layer "F.Fab")
+		(uuid "c686d921-4dad-40ff-acba-c957122679b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be229e7a-5555-40f1-86f4-185bc8caacd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "953b4768-55cc-40aa-9ce5-298d6dc40df5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.9 2)
+		(end 12.1 17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84d8d86a-56e3-460c-a4d7-7b2f3862118f")
+	)
+	(fp_rect
+		(start -2.9 2)
+		(end 12.1 17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ec86ebc-6226-4188-b751-879846603496")
+	)
+	(fp_line
+		(start -2.9 4)
+		(end -0.8 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d6fed040-f9a1-445b-bbf0-36ada44a4124")
+	)
+	(fp_line
+		(start -2.9 17)
+		(end -2.9 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "64d09662-bf4c-4eea-9b83-110d4692c880")
+	)
+	(fp_line
+		(start -0.8 2)
+		(end 12.1 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b72d8ef5-9eb6-433c-8e89-e9ec5b498a1a")
+	)
+	(fp_line
+		(start 12.1 2.1)
+		(end 12.1 17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ce101b01-03a9-47b5-b834-27dd025d72a1")
+	)
+	(fp_line
+		(start 12.1 17)
+		(end -2.9 17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c70b8574-d455-4605-8226-d55f8e973c2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.4 1.1 0)
+		(layer "F.Fab")
+		(uuid "31cf930c-bf6d-4dc3-b1d6-509870635b8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 7)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "4110ba66-82b3-4185-9321-496bad7a9d90")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "83c22cad-e636-489c-8d20-4bc083cf117a")
+	)
+	(pad "3" thru_hole circle
+		(at 9 12)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "b6a35b8c-93a7-47b7-837c-a176ab70fbe6")
+	)
+	(pad "4" thru_hole circle
+		(at 9 7)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "2de6256f-85ec-4af5-9598-713f2027f0d8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMPT101K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

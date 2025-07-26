@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "TeensyLibrary")(type "KiCad")(uri "${KIPRJMOD}/libs/TeensyLibrary.pretty")(options "")(descr ""))
+  (lib (name "AudioTransformer_Edwin")(type "KiCad")(uri "${KIPRJMOD}/libs/AudioTransformer_Edwin.pretty")(options "")(descr ""))
 )
